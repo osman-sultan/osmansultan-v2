@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeLogo } from "@/components/ThemeLogo";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { IBM_Plex_Mono } from "next/font/google";
 
@@ -51,6 +52,7 @@ export default function RootLayout({
 
               <div className="md:w-4/5 body">
                 {children}
+                <SpeedInsights />
                 <Footer />
               </div>
             </div>
