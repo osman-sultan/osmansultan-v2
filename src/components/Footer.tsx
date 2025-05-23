@@ -7,7 +7,7 @@ export function Footer() {
         •───────• Built with{" "}
         <a
           className="link hover:opacity-70 transition-opacity"
-          href="https://github.com/cnnmon/osman-sultan"
+          href="https://github.com/osman-sultan"
         >
           <b>/ᐠ. ᴗ.ᐟ\</b>
         </a>{" "}
