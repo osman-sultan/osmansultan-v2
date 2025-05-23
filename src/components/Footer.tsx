@@ -7,9 +7,9 @@ export function Footer() {
         •───────• Built with{" "}
         <a
           className="link hover:opacity-70 transition-opacity"
-          href="https://github.com/cnnmon/tiffanywang"
+          href="https://github.com/cnnmon/osman-sultan"
         >
-          <b>˙ᵕ˙</b>
+          <b>/ᐠ. ᴗ.ᐟ\</b>
         </a>{" "}
         •───────•
       </p>

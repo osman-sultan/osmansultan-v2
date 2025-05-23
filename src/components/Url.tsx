@@ -8,12 +8,7 @@ export function Url({
   children: React.ReactNode;
 }) {
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="link ml-2"
-    >
+    <a href={href} target="_blank" rel="noopener noreferrer" className="link">
       {children}
     </a>
   );

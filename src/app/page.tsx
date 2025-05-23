@@ -6,20 +6,24 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const words = {
     drinks: [
-      "yakult",
-      "grape soda",
-      "oat matcha lattes",
-      "La Croix",
-      "Cholula hot sauce",
+      "mango juice",
+      "Tang",
+      "matcha lattes",
+      "ice cold Evian",
+      "sweet lassi",
     ],
     hobbies: [
-      "hosting social deduction board game nights",
-      "singing my heart out at karaoke",
-      "brewing the spiciest soups known to man",
-      "talking about the idea of going to the gym",
+      "grinding Assassin's Creed",
+      "reminding myself next year is Ferrari's year",
+      "catching up on brainrot",
+      "rewatching Harry Potter, ATLA, and LOTR",
+      "continuing my matcha quest",
+      "ranking food on Beli",
+      "admiring Lamine Yamal",
+      "binging One Piece",
     ],
   };
-  const drinksEmoji = ["🍓", "🍇", "🍵", "🍊", "🌶️"];
+  const drinksEmoji = ["🥭", "🍊", "🍃", "💧", "🥛"];
 
   const initialWordsState = Object.fromEntries(
     Object.keys(words).map((key) => [key, 0])
@@ -53,25 +57,34 @@ export default function Home() {
     );
   }
   return (
-    <>      <div className="w-full text-center">        <div className="pt-6 md:pt-10 pb-5">          {" "}          <AuroraText
+    <>
+      {" "}
+      <div className="w-full text-center">
+        {" "}
+        <div className="pt-6 md:pt-10 pb-5">
+          <AuroraText
             className="text-5xl md:text-5xl font-['PrinceOfPersia']"
-            speed={1}
-            colors={["#1b4332", "#2d6a4f", "#40916c", "#52b788"]}
+            speed={2}
+            colors={["#15803d", "#16a34a", "#22c55e", "#059669", "#047857"]}
           >
             hi, i&apos;m Osman!
           </AuroraText>
         </div>
       </div>
-      <div>⋆✩˚.⋆.</div>
+      <div>(∩｀-´)⊃━━☆ﾟ.*･｡ﾟ</div>
       <br />
       <p>
         <b>Welcome to my web-home!</b> Go ahead, grab yourself something to
-        drink. I have a cooler full of <PlayLink type="drinks" />{" "}
+        drink. I have a cooler full of <PlayLink type="drinks" />
         {drinksEmoji[wordsState["drinks"]]}.
         <br />
         <br />
-        I&apos;m a programmer, researcher, artist, and game-maker. I care about
-        socially impactful tech, experimental new media, creative tools, and{" "}
+        I&apos;m a programmer and engineering grad based in Toronto 🍁. I care
+        about how large-scale systems work, why they break, and how tech can
+        make them fairer, more accessible, and built for people.
+        <br />
+        <br />
+        When I&apos;m not breaking code I&apos;m {""}
         <PlayLink type="hobbies" />.
         <br />
         <br /> Reach out anytime at <b>osmansultan2002 at gmail dot com</b>.

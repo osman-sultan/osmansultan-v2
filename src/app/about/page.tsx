@@ -5,7 +5,6 @@ export default function About() {
   return (
     <div className="flex flex-col gap-2">
       <div>
-        {" "}
         <Image
           src="/me.jpeg"
           width={300}
@@ -14,32 +13,30 @@ export default function About() {
           alt="Profile picture"
           priority
         />
-        <p>📍 San Francisco, CA</p>
+        <p>📍 Toronto, ON, Canada</p>
       </div>
       <br />
       <p>
         <b>About me</b>
         <br />
         <br />
-        Hi, I&apos;m Tiffany! Hailing from the cornfields of Ohio, I now roam
-        the cafes of San Francisco and work on{" "}
-        <Url href="https://mj-storytelling.github.io/">
-          AI-supported storytelling tools
+        Hi, I&apos;m Osman! Hailing from the suburban sprawl of Mississauga, I
+        now roam the streets of Toronto looking for food and matcha to add to my
+        Beli. While I look for full-time employment I occasionally work on
+        data-driven intelligence tools for {""}
+        <Url href="https://www.munero.net/">
+          Munero - a global loyalty company
         </Url>
         .
         <br />
         <br />
-        I&apos;m a software engineer and artist who makes{" "}
-        <Url href="https://cnnmon.itch.io/">
-          experimental indie games (1.3m+ plays!)
-        </Url>{" "}
-        and other projects exploring human-AI interaction and collaborative
-        creativity (see: <Url href="projects">/projects</Url>).
+        I&apos;m an industrial engineer and software developer who is a serial
+        hobby hopper with terminal FOMO.
         <br />
         <br />
         I love dabbling in as many disciplines as possible, learning by
-        experimenting, and building colorful experiences. I&apos;m also happy to
-        chat or collaborate! Don&apos;t hesitate to reach out ˙ᵕ˙
+        experimenting, and building by breaking. I&apos;m also happy to chat or
+        collaborate! Don&apos;t hesitate to reach out ˙ᵕ˙
         <br />
       </p>
       <br />
@@ -47,86 +44,70 @@ export default function About() {
         <b>Previously, I...</b>
       </p>
       <ul className="list-disc list-inside">
-        <li>Graduated Berkeley! yay</li>
+        <li>Graduated from UofT! nice</li>
         <li>
-          Co-authored a paper on{" "}
-          <Url href="https://tensortrust.ai/paper/">
-            the art of jailbreaking LLMs
+          Built an AI matching engine for{" "}
+          <Url href="https://ploopy.co/">Ploopy</Url> - they make open-source
+          computer peripherals like trackballs and headphones.
+        </li>
+        <li>
+          Spent a year as a dev at{" "}
+          <Url href="https://www.doctalk.com/">Doctalk</Url> - a startup trying
+          to make doctors&apos; lives easier.
+        </li>
+        <li>
+          Upgraded legacy code at <Url href="https://www.molex.com/">Molex</Url>{" "}
+          - a global maker of connectors and electronic components.
+        </li>
+      </ul>
+
+      <p>
+        <b>...and I also volunteered a bit, having...</b>
+      </p>
+      <ul className="list-disc list-inside">
+        <li>
+          Worked with 6000+ students and 100+ companies at{" "}
+          <Url href="https://yourenext.ca/">YNCN</Url>, to deliver the best
+          career development experiences for students looking to get their foot
+          in the door.
+        </li>
+        <li>
+          Led a research project on conversational recommender systems at{" "}
+          <Url href="https://utmist.gitlab.io/">UTMIST</Url>, working on
+          conversational AI for education - inspired by{" "}
+          <Url href="https://github.com/D3Mlab/llm-convrec">
+            Prof. Scott Sanner&apos;s
           </Url>{" "}
-          at <Url href="https://humancompatible.ai/">CHAI</Url>
+          research.
         </li>
         <li>
-          Interned at <Url href="https://watershed.com/">Watershed</Url>,{" "}
-          <Url href="https://about.meta.com/realitylabs/">
-            Facebook Reality Labs
-          </Url>
-          , and <Url href="https://ramp.com/">Ramp</Url>
+          Built pro-bono websites for uni-affiliated groups with{" "}
+          <Url href="https://github.com/UTFO">UTFO</Url> - a club I co-founded.
         </li>
         <li>
-          Illustrated for <Url href="https://www.kernelmag.io/">Kernel</Url> and{" "}
-          <Url href="https://www.tiktok.com/@gag.magazine/">
-            student-run art magazines
-          </Url>
+          Leedured frosh week 4 times - introducing 1st years to{" "}
+          <Url href="https://skulepedia.ca/wiki/F!rosh_Week">Skule!</Url>.
         </li>
         <li>
-          Taught:
-          <ul className="list-none ml-12">
-            <li>
-              {" "}
-              <Url href="https://cs162.org/">CS 162 Operating Systems</Url> with
-              our favorite bean pintOS
-            </li>
-            <li>
-              <Url href="https://cs61a.org/">CS 61A Intro to CS</Url>,
-              Berkeley&apos;s starter course
-            </li>
-            <li>
-              <Url href="https://webdesigndecal.github.io/">
-                Web Design Decal
-              </Url>
-              , a course on design & web-making
-            </li>
-          </ul>
+          Made STEM accessible to underserved communities through{" "}
+          <Url href="https://www.vosnl.org/">Visions of Science</Url>
         </li>
         <li>
-          Led tech at 2 lovely student orgs:
-          <ul className="list-none ml-12">
-            <li>
-              <Url href="https://www.calblueprint.org/">Blueprint</Url>,
-              pro-bono tech for non-profits
-            </li>
-            <li>
-              <Url href="https://www.calhacks.io/">Cal Hacks</Url>, the
-              world&apos;s largest collegiate hackathon
-            </li>
-          </ul>
+          Taught Python, Java, and SQL to fellow engineering students who were
+          just getting started
         </li>
-        <li>
-          Drew inspiration from wonderful communities:
-          <ul className="list-none ml-12">
-            <li>
-              <Url href="https://eecs.berkeley.edu/resources/undergrads/accel">
-                Accel Scholars
-              </Url>
-            </li>
-            <li>
-              <Url href="https://joininteract.com/">Interact Fellowship</Url>
-            </li>
-            <li>
-              <Url href="https://neo.com/">Neo Scholars</Url>
-            </li>
-          </ul>
-        </li>
-        <li>Collaborated on educational games with the Cleveland Clinic</li>
-        <li>Made dress-up games in Flash</li>
       </ul>
       <p>
+        Always down to chat about tech, cars, games or whatever random rabbit
+        hole I&apos;m currently exploring! (☞ﾟヮﾟ)☞
+      </p>
+      <p>
         <br />
-        <b>✧･ﾟ: *✧･ﾟ:*</b>
+        <b>----------</b>
         <br />
         <br />
         Want to reach out? Feel free to email me at{" "}
-        <b>tiffanywang at berkeley dot edu</b> 📬.
+        <b>osmansultan2002 at gmail dot com</b> 📬.
       </p>
     </div>
   );

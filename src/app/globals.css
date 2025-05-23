@@ -196,13 +196,13 @@ h1 {
 }
 
 .card:hover {
-  box-shadow: 8px 8px 0px 0px #fec2ae;
+  box-shadow: 8px 8px 0px 0px #40a860;
 }
 
 .link {
   text-decoration: underline;
   cursor: pointer;
-  color: #cc7b06;
+  color: #147617;
 }
 
 .link:hover {
@@ -216,6 +216,16 @@ h1 {
 .play:hover {
   color: #4d4d4d;
   opacity: 0.5;
+}
+
+/* Dark mode styles for play links */
+.dark .play {
+  color: #b0b0b0;
+}
+
+.dark .play:hover {
+  color: #b0b0b0;
+  opacity: 0.7;
 }
 
 .wave {
