@@ -119,13 +119,13 @@ export default function Projects() {
         Take a look around! I often use Typescript, Next.js/React.js, Python,
         SQL, and Java. Smaller projects live on my{" "}
         <Url href="https://github.com/osman-sultan">GitHub</Url>.
-      </p>
+      </p>{" "}
       <div className="flex flex-row gap-2 mt-4 mb-4">
         {allTypes.map((type) => (
           <button
             key={type}
             onClick={() => setSelectedType(type)}
-            className={`${
+            className={`text-sm md:text-base cursor-pointer ${
               selectedType === type
                 ? "bg-black text-white"
                 : "bg-[#40A860] text-white"
