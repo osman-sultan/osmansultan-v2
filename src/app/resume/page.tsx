@@ -24,8 +24,8 @@ export default function Resume() {
 
   const resumeFile =
     resumeType === "fullstack"
-      ? "/OsmanSultanResume_FS_May16th.pdf"
-      : "/OsmanSultanResume_Data_May16th.pdf";
+      ? "/OsmanSultanResume_SWE_July10.pdf"
+      : "/OsmanSultanResume_Data_July10.pdf";
 
   return (
     <div>

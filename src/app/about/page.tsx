@@ -22,12 +22,13 @@ export default function About() {
         <br />
         Hi, I&apos;m Osman! Hailing from the suburban sprawl of Mississauga, I
         now roam the streets of Toronto looking for food and matcha to add to my
-        Beli. While I look for full-time employment I occasionally work on
-        data-driven intelligence tools for {""}
-        <Url href="https://www.munero.net/">
-          Munero - a global loyalty company
-        </Url>
-        .
+        Beli. Currently I&apos;m currently working at{" "}
+        <Url href="https://www.healthtap.com/">HealthTap</Url> as a Software
+        Engineer Intern working on ai automation - helping to better serve the
+        needs of patients and customers in the telehealth space. I also dabble
+        in data-driven intelligence tools for{" "}
+        <Url href="https://www.munero.net/">Munero</Url>, a global loyalty
+        company, on the side (think amex).
         <br />
         <br />
         I&apos;m an industrial engineer and software developer who is a serial
